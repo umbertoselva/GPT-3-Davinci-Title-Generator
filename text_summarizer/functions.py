@@ -1,6 +1,5 @@
 import openai
 import streamlit as st
-import re
 
 def summarize(prompt):
     augmented_prompt = f"Generate a title or headline about the following text: {prompt}"
